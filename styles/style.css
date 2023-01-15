@@ -370,6 +370,7 @@ Quick feature Section Style
   footer section style
   =================== */
 .footer {
+  margin-top: 90px;
   background: #fff2e7;
   padding: 40px 50px;
   display: grid;
