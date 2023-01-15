@@ -206,7 +206,8 @@ Quick feature Section Style
 
 .card {
   background: #ffffff;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06); */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   border-radius: 8px;
   padding: 30px 40px 30px 30px;
   margin-top: 5px;
@@ -254,7 +255,7 @@ Quick feature Section Style
   ===================== */
 
 .facts {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .section-title {
@@ -330,5 +331,54 @@ Quick feature Section Style
 }
 
 /*========================
-   Some Fact Section Style
+   sponsors Section Style
   ===================== */
+
+.sponsor {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.sponsor-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sponsor-description {
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sponsor-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 33px;
+}
+
+.black {
+  filter: grayscale(100%);
+}
+
+/* ===================
+  footer section style
+  =================== */
+
+footer {
+  margin-top: 5rem;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 35px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  color: #424242;
+}
