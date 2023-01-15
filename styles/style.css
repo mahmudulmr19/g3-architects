@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* =========== General CSS ========= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.btn-primary {
+  border: 0;
+  padding: 18px 22px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  background: #ff900e;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btn-primary:hover {
+  background: #f88a0c;
+}
+
+/* ======================
+   Header & nav Section Styles
+   ====================== */
+
+header {
+  height: auto;
+  background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #131313;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.items li {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  font-size: 22px !important;
+}
+
+/*==================== 
+Header-Banner Section 
+====================== */
+
+.header-banner {
+  margin-top: 35px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner-description {
+  font-size: 16px;
+  color: #727272;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 17px;
+}
+
+.explore-button {
+  text-align: center;
+  margin: 18px 0;
+}
+
+.first img {
+  margin-top: 18px;
+}
+
+/*=============================
+Quick feature Section Style
+===============================*/
+
+.quick-feature {
+  padding: 62px 20px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.quick-feature-left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Image size increase */
+.quick-feature-left img {
+  width: 250px;
+}
+
+.quick-feature-right-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+  margin-bottom: 16px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.bold-orange {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+
+.quick-feature-right-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 16px;
+}
+
+.quick-feature-right .btn-primary {
+  margin-bottom: 4px;
+}
+
+/* ==========================
+  Feature List Section Style
+  ==========================*/
+
+.feature-list-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.list-content {
+  width: 50%;
+}
+
+.image-content {
+  position: relative;
+  width: 50%;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 17px;
+}
+
+.feature-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 14px;
+}
+
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 40px 30px 30px;
+  margin-top: 8px;
+}
+
+.feature-card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 15px;
+}
+
+.feature-card-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+/* feature Right Side */
+
+.experience-btn {
+  border: none;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 30px 32px;
+  position: relative;
+  left: 0;
+  top: -70px;
+}
+
+.experience-btn span {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+
+.experience-btn p {
+  font-weight: 500;
+  font-size: 18px;
+}

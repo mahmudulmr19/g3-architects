@@ -1,0 +1,47 @@
+/* Small Device Media Query */
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .logo {
+    font-size: 32px;
+  }
+  .items li {
+    display: none;
+  }
+  .menu {
+    display: block !important;
+  }
+  .banner-title {
+    font-size: 32px;
+  }
+
+  .quick-feature {
+    flex-direction: column-reverse;
+    padding: 62px 2px !important;
+  }
+
+  .quick-feature img {
+    width: 100%;
+  }
+
+  .quick-feature-left {
+    gap: 14px;
+  }
+
+  .feature-list-content {
+    flex-direction: column;
+  }
+
+  .list-content {
+    width: 100%;
+  }
+
+  .image-content {
+    width: 100%;
+  }
+  .experience-btn {
+    padding: 1.5rem;
+  }
+}
