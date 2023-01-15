@@ -14,6 +14,10 @@ body {
 img {
   width: 100%;
 }
+
+section {
+  margin-top: 1rem;
+}
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -205,7 +209,7 @@ Quick feature Section Style
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
   padding: 30px 40px 30px 30px;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .feature-card-title {
@@ -244,3 +248,87 @@ Quick feature Section Style
   font-weight: 500;
   font-size: 18px;
 }
+
+/*========================
+   Some Fact Section Style
+  ===================== */
+
+.facts {
+  margin-top: 50px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 2.75rem;
+  color: #131313;
+  margin-bottom: 15px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #727272;
+}
+
+.facts-cards {
+  padding: 65px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  text-align: center;
+  gap: 28px;
+}
+
+.facts-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 50px 40px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.facts-card:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.facts-card:hover .fact-icon {
+  animation: icon-animate 1s linear infinite;
+}
+
+@keyframes icon-animate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fact-icon {
+  width: 45.22px;
+  height: 45.22px;
+  margin: 0 auto 10px auto;
+}
+
+.facts-card span {
+  font-weight: 600;
+  font-size: 40px;
+  color: #424242;
+  margin: 5px auto 0 auto;
+}
+
+.facts-card p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #727272;
+}
+
+/*========================
+   Some Fact Section Style
+  ===================== */

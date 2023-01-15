@@ -44,4 +44,15 @@
   .experience-btn {
     padding: 1.5rem;
   }
+  .hide {
+    display: none;
+  }
+
+  .facts {
+    margin-top: 18px;
+  }
+
+  .facts-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
