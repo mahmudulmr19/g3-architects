@@ -369,9 +369,16 @@ Quick feature Section Style
 /* ===================
   footer section style
   =================== */
+.footer {
+  background: #fff2e7;
+  padding: 40px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+/* Second footer sub */
 footer {
-  margin-top: 5rem;
+  border-top: 1px solid #424242;
   background: #fff4e7;
   border-radius: 8px;
   padding: 35px;
@@ -381,4 +388,44 @@ footer {
   text-align: center;
   font-size: 16px;
   color: #424242;
+}
+
+.footer-logo {
+  margin-bottom: 8px;
+  color: #424242;
+}
+
+.footer-link {
+  color: #424242;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer-1 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.footer-1 ul li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #424242;
+}
+
+.footer-2 ul {
+  list-style: none;
+  margin-top: 8px;
+  line-height: 30px;
+}
+
+.footer-2 ul li {
+  color: #424242;
+}
+
+.footer-2 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

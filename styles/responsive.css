@@ -58,4 +58,9 @@
   .sponsor-container {
     flex-direction: column;
   }
+
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
 }
