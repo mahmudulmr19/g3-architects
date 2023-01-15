@@ -189,6 +189,8 @@ Quick feature Section Style
   line-height: 53px;
   color: #131313;
   margin-bottom: 17px;
+  padding-left: 1.5rem;
+  border-left: 3px solid #ff900e;
 }
 
 .feature-description {
